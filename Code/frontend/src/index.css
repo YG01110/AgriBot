@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-sky-50 text-sky-900 min-h-screen font-sf-pro antialiased;
+  }
+
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-sky-100/50;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-sky-300/60 rounded-full hover:bg-sky-400/80;
+  }
+
+  input, select, textarea {
+    @apply transition-all duration-200 ease-out;
+  }
+
+  @keyframes pulse-slow {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+
+  @keyframes text-shine {
+    0% { background-position: 0% 50% }
+    100% { background-position: 100% 50% }
+  }
+
+  @keyframes border-shine {
+    0% { background-position: -100% -100%; }
+    100% { background-position: 200% 200%; }
+  }
+
+  .animate-pulse-slow {
+    animation: pulse-slow 5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .animate-text-shine {
+    animation: text-shine 2s ease-in-out infinite alternate;
+  }
+}
+
+@layer utilities {
+  .font-sf-pro {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+
+  .bg-gradient-radial {
+    background-image: radial-gradient(circle at center, var(--tw-gradient-stops));
+  }
+
+  .mix-bl-lighten {
+    mix-blend-mode: lighten;
+  }
+
+  .animate-border-shine {
+    @apply absolute inset-[-2px] rounded-2xl z-[0];
+    background: linear-gradient(
+      45deg,
+      transparent 25%,
+      rgba(255,255,255,0.6) 50%,
+      transparent 75%
+    );
+    background-size: 200% 200%;
+    animation: border-shine 1.5s linear forwards;
+  }
+}

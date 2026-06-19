@@ -1,0 +1,1109 @@
+{
+   "intents": [
+      {
+         "tag": "greeting",
+         "patterns": [
+            "Hi",
+            "Is anyone there?",
+            "Hello",
+            "Good day",
+            "What's up",
+            "how are ya",
+            "heyy",
+            "whatsup",
+            "Hi there, can you help me with something?",
+            "Hello! I have a question. Can you assist me?",
+            "Hey, I need your help with something.",
+            "Good morning/afternoon/evening! Can you answer a question for me?",
+            "Greetings! I need your assistance with something.",
+            "Hi,can you provide me with some information?",
+            "Hello, can you help me with a task?",
+            "Hey,I'm looking for some guidance. Can you help?",
+            "Good day! Can you assist me with a query?",
+            "Hi,I would like to ask you a question.",
+            "Hello",
+            "Hey there",
+            "Hi",
+            "Greetings",
+            "Good morning",
+            "Good afternoon",
+            "Good evening",
+            "Salutations",
+            "Howdy",
+            "Yo",
+            "Hiya",
+            "What's up",
+            "Sup",
+           "Hola",
+           "Bonjour",
+            "Ciao",
+            "Konnichiwa",
+            "Namaste",
+            "Salaam",
+            "Shalom",
+            "Good day",
+            "Pleasure to chat with you",
+            "It's great to talk with you",
+            "Hi chatbot",
+            "Hello chatbot",
+            "Hey chatbot",
+            "What's new",
+            "How's it going",
+            "What's happening",
+            "What can you do for me",
+            "How can I assist you",
+            "Can you help me",
+            "I need your help",
+            "I have a question",
+            "I'm here to chat",
+            "Let's talk",
+            "What's on your mind",
+            "What are you capable of doing",
+            "What brings you here"
+         ],
+         "responses": [
+            "Hello!",
+            "Hi there, how can I help?",
+            "Greetings, how may i help you?",
+            "Good day, what brings you here?",
+            "Howdy, what's on your mind?",
+            "Yo, what can I do for you?",
+            "Hey there, how may I assist you?",
+            "Welcome, what can I help you with?",
+            "Nice to meet you, how may I be of assistance?",
+            "Pleasure to chat with you, what can I do for you?",
+            "I'm a chatbot, how can I help you today?",
+            "My name is [bot name], what can I do for you?",
+            "I'm here to help, what can I assist you with?",
+            "What's up, how may I assist you today?",
+            "Hi, how can I be of service?",
+            "Good to see you, what can I help you with?",
+            "Hi there, what brings you to me?",
+            "I'm here to answer your questions, what would you like to know?",
+            "How may I be of assistance to you today?",
+            "Hi, what can I do for you today?",
+            "What can I help you with today?",
+            "I'm here to chat with you, what would you like to talk about?",
+            "How may I assist you in solving your problem?",
+            "I'm here to assist you, what can I do for you today?",
+            "Hi, how can I make your day better?",
+            "What can I do to assist you today?",
+            "I'm here to listen to you, what can I help you with?",
+            "Hi there, how may I assist you with your inquiry?",
+            "I'm here to answer your questions, what would you like to know",
+            "What can I help you with today?",
+            "I'm here to make your life easier, how can I assist you?",
+            "How can I help you today?",
+            "I'm here to make things easier for you, what can I do for you?",
+            "Hi, how can I assist you today?",
+            "What's on your mind, how may I assist you today?",
+            "How may I assist you in resolving your issue?",
+            "I'm here to assist you, what can I do for you today?",
+            "Hi there, what can I help you with?",
+            "How may I be of service to you today?",
+            "I'm here to assist you with your needs, what can I do for you?",
+            "How can I make your day better today?",
+            "I'm here to make things easier for you, what can I help you with?",
+            "Hi there, how may I assist you in solving your problem?",
+            "What can I help you with today",
+            "I'm here to help you out, what can I do for you?",
+            "How may I be of assistance today?",
+            "I'm here to provide answers to your questions, what would you like to know?",
+            "Hi, how can I help you today?",
+            "How may I assist you in achieving your goals?"
+         ],
+         "context_set": "greeting"
+      },
+      {
+         "tag": "weather_forecast",
+         "patterns": [
+            "What's the weather going to be like today?",
+            "Will it rain tomorrow?",
+            "Is a drought expected this year?",
+            "What is the forecast for this week?",
+            "Do I need to worry about frost tonight?"
+         ],
+         "responses": [
+            "The weather today will be sunny with a high of 32 degrees.",
+            "Light rain is expected tomorrow afternoon.",
+            "There are no current drought warnings for this year.",
+            "This week will have mixed weather with some rainy days.",
+            "No frost is expected tonight, temperatures will stay above freezing."
+         ]
+      },
+      {
+         "tag": "crop_prices",
+         "patterns": [
+            "What's the current price of wheat?"
+         ],
+         "responses": [
+            "The current price for wheat is \u20b92000 per quintal."
+         ]
+      },
+      {
+         "tag":"onions",
+         "patterns":[
+            "How much are onions selling for?"
+
+         ],
+         "responses":[
+            "Onions are selling at \u20b9500 per quintal."
+         ]
+      },
+      {
+         "tag":"rice",
+         "patterns":[
+            "What is the market rate for rice?"
+
+         ],
+         "responses":[
+            "The market rate for rice is \u20b93000 per quintal."
+         ]
+      },
+      {
+         "tag":"cotton",
+         "patterns":[
+            "Are cotton prices expected to rise?"
+
+         ],
+         "responses":[
+            "Cotton prices are expected to be stable in the upcoming months."
+         ]
+      },
+      {
+         "tag":"sugarcane",
+         "patterns":[
+            "What is the price of sugarcane per ton?"
+
+         ],
+         "responses":[
+            "Sugarcane is priced at \u20b9350 per ton."
+         ]
+      },
+      {
+         "tag": "agricultural_techniques",
+         "patterns": [
+            "How should I prepare my soil for planting?",
+            "What is the best way to increase crop yield?",
+            "How do I practice sustainable farming?",
+            "Can you tell me about organic farming practices?",
+            "What are some effective methods for irrigation?"
+         ],
+         "responses": [
+            "Soil preparation involves plowing, leveling, and applying organic matter.",
+            "Increasing crop yield can be achieved through crop rotation, proper fertilization, and pest control.",
+            "Sustainable farming involves using techniques that protect the environment, public health, and animal welfare.",
+            "Organic farming practices include the use of natural pesticides and fertilizers and crop rotation.",
+            "Effective irrigation methods include drip irrigation, sprinkler systems, and proper scheduling."
+         ]
+      },
+      {
+         "tag": "loans",
+         "patterns": [
+            "What subsidies are available for farmers?",
+            "Are there any government loans for farmers?", 
+            "How do I get benefits from the National Horticulture Mission?"
+         ],
+         "responses": [
+            "Farmers can avail of subsidies on seeds, fertilizers, and equipment.",
+            "You can apply for Pradhan Mantri Fasal Bima Yojana through the official portal or visit your nearest agriculture office.",
+           "Benefits from the National Horticulture Mission can be availed by registering on their official website or contacting the local agriculture office."
+         ]
+      },
+      {
+         "tag": "schemes",
+         "patterns": [
+            "what are the schemes available for farmers?",
+            "central government schemes for farmers",
+            "schemes for farmers",
+            "government schemes",
+            "What is the Kisan Credit Card scheme?",
+            "How can I apply for the Pradhan Mantri Fasal Bima Yojana?"
+            
+         ],
+         "responses": [
+            "For any queries about schemes <a target=\"_blank\" href=\"https://adil200.github.io/Farmer-Schemes/\"><u>click here</u></a>"            
+         ]
+      },
+      {
+         "tag": "farmer_assistance",
+         "patterns": [
+            "How can I get assistance for farming?",
+            "Is there any support available for farmers?",
+            "I need guidance on agricultural practices.",
+            "Can you help me with farming techniques?",
+            "What resources are available for farmers?"
+         ],
+         "responses": [
+            "Certainly! I can provide information on farming techniques, crop management, and more. How can I assist you today?",
+            "Farmers can access resources on sustainable farming, crop selection, and more. How can I help you with your farming queries?",
+            "Whether it's about crop yield improvement or soil management, feel free to ask any farming-related questions. I'm here to help!",
+            "Farmers often seek assistance in various aspects of agriculture. How can I guide you with your farming concerns?"
+         ]
+      },
+      {
+         "tag": "pest_management",
+         "patterns": [
+            "How do I control pests in my crops?",
+            "Can you suggest methods for pest management?",
+            "Dealing with crop pests, any advice?",
+            "What are effective ways to prevent crop diseases?",
+            "Pest control tips for farmers?"
+         ],
+         "responses": [
+            "Pest management is crucial for crop health. Consider using natural predators, proper crop rotation, and organic pesticides. Need more specific advice?",
+            "To control pests, integrated pest management (IPM) is effective. It combines biological, cultural, and chemical methods. How can I assist you further?",
+            "Farmers often combat pests through various strategies. What specific pests are you dealing with, and I can provide targeted advice?",
+            "Preventing crop diseases involves maintaining good hygiene, timely harvesting, and using disease-resistant crop varieties. Need guidance on a specific issue?"
+         ]
+      },
+      {
+         "tag": "crop_selection",
+         "patterns": [
+            "How do I choose the right crops for my farm?",
+            "Any tips for selecting crops based on soil type?",
+            "What factors should I consider when picking crops?",
+            "Crop selection advice for a beginner farmer?",
+            "Which crops are suitable for my region?"
+         ],
+         "responses": [
+            "Selecting crops depends on factors like soil type, climate, and market demand. Consider crops that align with your region's conditions and your goals.",
+            "Choosing the right crops involves assessing soil fertility, water availability, and market demand. Do you have specific preferences or constraints?",
+            "Farmers often consider factors like climate, soil quality, and market demand when selecting crops. How can I assist you in making the right choices?",
+            "For a beginner, start with crops suitable for your region and climate. Focus on understanding the local market and gradually diversify. Need more guidance?"
+         ]
+      },
+      {
+         "tag": "irrigation_methods",
+         "patterns": [
+            "What are effective methods for irrigation?",
+            "Can you suggest irrigation techniques for dry regions?",
+            "I need guidance on efficient water usage in farming.",
+            "Best practices for crop irrigation?",
+            "Tell me about modern irrigation systems."
+         ],
+         "responses": [
+            "Efficient irrigation is crucial for crop health. Drip irrigation and sprinkler systems are modern methods that save water. Need more details or advice?",
+            "In dry regions, consider techniques like drip irrigation and rainwater harvesting for sustainable water use in farming. How can I assist you further?",
+            "Optimizing water usage in farming involves using drip irrigation, mulching, and scheduling irrigation based on crop needs. Any specific concerns you'd like to address?",
+            "For effective crop irrigation, consider methods like drip, furrow, or flood irrigation based on your crop type and soil. What specific guidance are you looking for?",
+            "Modern irrigation systems like precision irrigation use technology to optimize water distribution. Is there a particular aspect of irrigation you'd like to explore?"
+         ]
+      },
+      {
+         "tag": "soil_management",
+         "patterns": [
+            "How should I prepare my soil for planting?",
+            "Tell me about soil enrichment techniques.",
+            "Best practices for maintaining soil fertility?",
+            "What are effective ways to prevent soil erosion?",
+            "I need guidance on organic soil management."
+         ],
+         "responses": [
+            "Soil preparation involves plowing, leveling, and adding organic matter. Crop rotation and cover cropping also enhance soil fertility. Need more details?",
+            "To enrich soil, consider using compost, cover crops, and organic fertilizers. Maintaining soil health is key to successful farming. How can I assist you further?",
+            "Maintaining soil fertility is vital. Crop rotation, proper fertilization, and organic amendments can help. Any specific questions on soil management?",
+            "Preventing soil erosion involves practices like contour plowing, cover cropping, and using windbreaks. What are your specific concerns regarding soil erosion?",
+            "Organic soil management focuses on natural amendments and sustainable practices. Are you looking for advice on transitioning to or improving organic farming?"
+         ]
+      },
+      {
+         "tag": "livestock_management",
+         "patterns": [
+            "How do I manage livestock on my farm?",
+            "Tell me about best practices in animal husbandry.",
+            "I need advice on raising healthy livestock.",
+            "What are the benefits of integrating livestock with crops?",
+            "Guide me on sustainable practices in livestock farming."
+         ],
+         "responses": [
+            "Managing livestock involves proper nutrition, shelter, and healthcare. Are you looking for specific advice on a particular aspect of animal husbandry?",
+            "Best practices in animal husbandry include providing proper nutrition, vaccination, and maintaining a clean environment. How can I assist you further?",
+            "Raising healthy livestock requires attention to nutrition, disease prevention, and proper housing. What specific aspects of livestock management would you like guidance on?",
+            "Integrating livestock with crops can have mutual benefits, such as nutrient cycling and pest control. Interested in learning more about integrated farming practices?",
+            "Sustainable livestock farming focuses on ethical practices, animal welfare, and environmental impact. Are you looking for guidance on specific sustainable practices in livestock management?"
+         ]
+      },
+      {
+         "tag": "organic_farming",
+         "patterns": [
+            "Tell me about organic farming practices.",
+            "How can I transition to organic farming?",
+            "Benefits of organic farming over conventional methods.",
+            "Organic pest control methods for crops.",
+            "I want to adopt eco-friendly farming practices."
+         ],
+         "responses": [
+            "Organic farming involves avoiding synthetic chemicals and using natural fertilizers and pesticides. Transitioning requires a shift to sustainable practices. How can I assist you further?",
+            "Transitioning to organic farming involves phasing out synthetic inputs and adopting practices like crop rotation and composting. Need guidance on specific aspects?",
+            "Organic farming promotes soil health, biodiversity, and reduces environmental impact. Interested in learning more about the benefits or specific techniques?",
+            "Organic pest control in crops includes methods like companion planting, beneficial insects, and neem-based solutions. Any specific pests you're dealing with?",
+            "Eco-friendly farming practices align with organic methods, focusing on sustainability and minimizing environmental impact. What specific eco-friendly practices are you interested in adopting?"
+         ]
+      },
+      {
+         "tag": "technology_in_agriculture",
+         "patterns": [
+            "How can technology benefit agriculture?",
+            "Tell me about modern farming technologies.",
+            "Use of drones in agriculture.",
+            "Precision farming techniques.",
+            "I want to explore tech solutions for my farm."
+         ],
+         "responses": [
+            "Technology benefits agriculture through precision farming, automation, and data-driven decision-making. How can I assist you in integrating technology on your farm?",
+            "Modern farming technologies include sensors, drones, and smart equipment. Interested in specific technologies or their applications in agriculture?",
+            "Drones in agriculture are used for crop monitoring, pest control, and mapping. Do you have specific questions about using drones on your farm?",
+            "Precision farming involves using data and technology to optimize crop yield. Interested in learning more about precision agriculture techniques?",
+            "Exploring tech solutions for your farm is a great idea! Depending on your needs, there are various tools available. What specific aspects are you interested in?"
+         ]
+      },
+      {
+         "tag": "climate_resilient_farming",
+         "patterns": [
+            "How can I make my farm more resilient to climate change?",
+            "Best practices for climate-resilient farming.",
+            "Adapting crops to changing climate conditions.",
+            "Dealing with extreme weather events in agriculture.",
+            "I want to ensure my farm is climate-smart."
+         ],
+         "responses": [
+            "Climate-resilient farming involves choosing climate-adapted crops, improving water management, and implementing sustainable practices. How can I assist you in building resilience?",
+            "Best practices for climate-resilient farming include crop diversification, water conservation, and soil health management. Interested in specific strategies for your farm?",
+            "Adapting crops to changing climate conditions involves selecting varieties with tolerance to heat, drought, or other climate-related challenges. Need guidance on specific crops?",
+            "Dealing with extreme weather events in agriculture requires preparation and resilient practices. Are you facing specific challenges due to extreme weather on your farm?",
+            "Ensuring your farm is climate-smart involves a holistic approach. What specific measures or information are you looking for to enhance your farm's resilience to climate change?"
+         ]
+      },
+      {
+         "tag": "crop_selection_india",
+         "patterns": [
+             "Which crops are suitable for cultivation in North India?",
+             "Tell me about crops suitable for the monsoon season in India.",
+             "Best crops for the winter season in South India.",
+             "I need advice on choosing crops for my farm in Maharashtra.",
+             "What are the recommended crops for the Kharif season in India?"
+         ],
+         "responses": [
+             "Crops like wheat, rice, and mustard are suitable for North India. Consider local weather patterns for optimal crop selection.",
+             "For the monsoon season, crops like rice, millets, and pulses are advisable. Adequate water management is crucial.",
+             "In South India during winter, consider crops like vegetables, legumes, and oilseeds. Soil preparation is key for a successful harvest.",
+             "For farms in Maharashtra, crops like sugarcane, soybeans, and vegetables are common. Assess your soil type and water availability for suitable choices.",
+             "Recommended crops for the Kharif season include rice, maize, and cotton. Understanding regional climate variations is essential for successful cultivation."
+         ]
+     },
+     {
+      "tag": "soil_health_management_india",
+      "patterns": [
+          "How can I improve soil health in my Andhra Pradesh farm?",
+          "Tell me about soil testing services for farmers in Tamil Nadu.",
+          "Best practices for organic soil management in Karnataka.",
+          "I need advice on preventing soil erosion in my Punjab farm.",
+          "What are the recommended soil amendments for Gujarat farmers?"
+      ],
+      "responses": [
+          "In Andhra Pradesh, focus on organic matter addition and cover cropping to enhance soil health. Consider crops suitable for the region.",
+          "For soil testing services in Tamil Nadu, contact your local agriculture department or visit a nearby agricultural university. Regular testing is beneficial.",
+          "Organic soil management in Karnataka involves practices like composting and crop rotation. Local organic farming associations can provide guidance.",
+          "To prevent soil erosion in Punjab, use practices like contour plowing and cover cropping. Assess your farm's specific needs for effective erosion control.",
+          "Recommended soil amendments for Gujarat farmers may include gypsum and organic compost. Consult with local agricultural experts for precise advice."
+      ]
+  },
+  {
+   "tag": "unrecognized_input",
+   "patterns": [
+      ".*"
+   ],
+   "responses": [
+      "Sorry, I cannot understand that, but I will take this query to improve my dataset."
+   ]
+},
+{
+   "tag": "farm_machinery",
+   "patterns": [
+      "What are the best tractors for small farms?",
+      "How do I maintain my tractor?",
+      "What are the latest innovations in farm machinery?",
+      "What are the uses of a rotavator?",
+      "How to choose the best irrigation equipment?",
+      "Where can I buy second-hand farm equipment?"
+   ],
+   "responses": [
+      "For small farms, tractors like Mahindra 265 DI, Swaraj 744, and John Deere 5050D are good choices.",
+      "To maintain a tractor, check engine oil, clean air filters, and inspect tires regularly.",
+      "Latest innovations include autonomous tractors, AI-based irrigation systems, and precision sowing machines.",
+      "A rotavator helps in soil preparation by breaking and leveling the soil before planting.",
+      "For irrigation, drip systems are best for water conservation, while sprinklers are good for large fields.",
+      "You can buy second-hand farm equipment from online platforms like OLX, KisanMandi, and KrishiJagran."
+   ]
+},
+{
+   "tag": "greenhouse_farming",
+   "patterns": [
+      "What is greenhouse farming?",
+      "How do I start a greenhouse farm?",
+      "What crops grow best in a greenhouse?",
+      "Is greenhouse farming profitable?",
+      "What are the challenges of greenhouse farming?"
+   ],
+   "responses": [
+      "Greenhouse farming involves growing crops in a controlled environment to protect them from extreme weather.",
+      "To start a greenhouse farm, choose the right structure, control temperature, and select suitable crops.",
+      "Crops like tomatoes, cucumbers, bell peppers, and strawberries grow well in greenhouses.",
+      "Yes, greenhouse farming is profitable as it increases yield and allows year-round production.",
+      "Challenges include high setup costs, pest management, and maintaining optimal climate conditions."
+   ]
+},
+{
+   "tag": "hydroponics",
+   "patterns": [
+      "What is hydroponic farming?",
+      "How does hydroponics work?",
+      "What are the advantages of hydroponics?",
+      "Can I grow hydroponic crops at home?",
+      "What are the best plants for hydroponics?"
+   ],
+   "responses": [
+      "Hydroponic farming is a method of growing plants without soil using nutrient-rich water.",
+      "In hydroponics, plant roots receive nutrients directly from water, eliminating the need for soil.",
+      "Advantages of hydroponics include faster growth, less water usage, and higher yields.",
+      "Yes, you can grow hydroponic crops at home using simple setups like NFT (Nutrient Film Technique) or DWC (Deep Water Culture).",
+      "Best plants for hydroponics include lettuce, spinach, basil, tomatoes, and strawberries."
+   ]
+},
+{
+   "tag": "soil_testing",
+   "patterns": [
+      "Why is soil testing important?",
+      "How do I test my farm soil?",
+      "Where can I get soil tested?",
+      "What is the ideal pH for farming?",
+      "How do I improve soil fertility?"
+   ],
+   "responses": [
+      "Soil testing helps determine nutrient levels and pH balance, improving crop yield and soil health.",
+      "You can test soil using home kits or send samples to an agricultural lab for analysis.",
+      "Soil testing services are available at government agriculture offices, Krishi Vigyan Kendras, and private labs.",
+      "The ideal pH for farming varies: most crops grow best between 6.0 and 7.5.",
+      "To improve soil fertility, use compost, green manure, crop rotation, and organic fertilizers."
+   ]
+},
+{
+   "tag": "dairy_farming",
+   "patterns": [
+      "How do I start a dairy farm?",
+      "What is the best breed for dairy farming?",
+      "How much milk does a cow produce daily?",
+      "What should I feed my dairy cattle?",
+      "How do I prevent diseases in dairy cattle?"
+   ],
+   "responses": [
+      "To start a dairy farm, select high-yielding cows, provide proper nutrition, and maintain hygienic conditions.",
+      "Best dairy breeds in India include Gir, Sahiwal, and Holstein Friesian.",
+      "A healthy cow produces 10-25 liters of milk per day, depending on the breed.",
+      "Feed dairy cattle with balanced nutrition including green fodder, dry fodder, and protein-rich supplements.",
+      "Prevent diseases by maintaining cleanliness, vaccinating on time, and providing fresh drinking water."
+   ]
+},
+{
+   "tag": "beekeeping",
+   "patterns": [
+      "How do I start beekeeping?",
+      "What are the benefits of beekeeping?",
+      "Which bees produce the best honey?",
+      "How do I protect bees from pests?",
+      "Where can I sell honey?"
+   ],
+   "responses": [
+      "To start beekeeping, set up bee boxes, ensure flower availability, and maintain proper hive management.",
+      "Beekeeping provides honey, supports pollination, and generates additional income.",
+      "Apis mellifera (European honeybee) and Apis cerana indica (Indian honeybee) produce high-quality honey.",
+      "Protect bees from pests like wax moths and mites using organic control methods.",
+      "You can sell honey in local markets, online platforms, and through FPOs (Farmer Producer Organizations)."
+   ]
+},
+{
+   "tag": "agribusiness",
+   "patterns": [
+      "How do I start an agribusiness?",
+      "What are the best agribusiness ideas?",
+      "How do I get funding for my agribusiness?",
+      "What is organic certification?",
+      "How can I export agricultural products?"
+   ],
+   "responses": [
+      "To start an agribusiness, identify a niche, develop a business plan, and get necessary licenses.",
+      "Best agribusiness ideas include organic farming, dairy farming, poultry, hydroponics, and farm equipment rentals.",
+      "You can get funding from NABARD, MSME loans, or government schemes like Agri-Startup Fund.",
+      "Organic certification ensures your products meet organic farming standards. Apply through agencies like NPOP India.",
+      "To export agricultural products, register with APEDA, get quality certifications, and follow government export regulations."
+   ]
+},
+{
+   "tag": "agroforestry",
+   "patterns": [
+      "What is agroforestry?",
+      "What are the benefits of agroforestry?",
+      "Which trees are best for agroforestry?",
+      "How does agroforestry improve soil?",
+      "Can I practice agroforestry in dry areas?"
+   ],
+   "responses": [
+      "Agroforestry combines agriculture and forestry to enhance biodiversity and soil health.",
+      "Benefits include soil conservation, increased income, and better water retention.",
+      "Best trees for agroforestry include teak, bamboo, moringa, and fruit trees like mango and guava.",
+      "Agroforestry improves soil by preventing erosion, increasing organic matter, and fixing nitrogen.",
+      "Yes, agroforestry can be practiced in dry areas using drought-resistant trees like neem and acacia."
+   ]
+},
+{
+   "tag": "fpo_farmer_producer_organization",
+   "patterns": [
+      "What is an FPO?",
+      "How do I join a Farmer Producer Organization?",
+      "What are the benefits of an FPO?",
+      "How do FPOs help small farmers?",
+      "Where can I find FPOs in India?"
+   ],
+   "responses": [
+      "An FPO (Farmer Producer Organization) is a group of farmers who work together for better market access and resources.",
+      "To join an FPO, contact your local agriculture department or visit the SFAC website (https://sfacindia.com/).",
+      "Benefits of an FPO include collective bargaining, access to credit, and better prices for crops.",
+      "FPOs help small farmers by reducing costs, increasing profits, and providing financial support.",
+      "You can find registered FPOs on the SFAC portal or through NABARD-supported initiatives."
+   ]
+},
+{
+   "tag": "contract_farming",
+   "patterns": [
+      "What is contract farming?",
+      "How does contract farming work in India?",
+      "Is contract farming beneficial for farmers?",
+      "What are the risks of contract farming?",
+      "How do I sign up for contract farming?"
+   ],
+   "responses": [
+      "Contract farming is an agreement between farmers and companies where the company buys produce at a pre-agreed price.",
+      "In India, contract farming is regulated under various state laws and the Model Contract Farming Act 2018.",
+      "Benefits include guaranteed prices, technical support, and reduced market risks.",
+      "Risks include unfair contract terms, price fluctuations, and dependency on one buyer.",
+      "To sign up, check with private companies, agro-industries, or government-backed contract farming schemes."
+   ]
+},
+{
+   "tag": "permaculture",
+   "patterns": [
+      "What is permaculture farming?",
+      "How does permaculture differ from organic farming?",
+      "Can I practice permaculture in India?",
+      "What crops grow well in permaculture?",
+      "Is permaculture profitable?"
+   ],
+   "responses": [
+      "Permaculture is a sustainable farming method that mimics natural ecosystems to grow food efficiently.",
+      "Unlike organic farming, permaculture integrates plants, animals, water, and energy in a self-sustaining system.",
+      "Yes, permaculture can be practiced in India, especially in areas with diverse climates.",
+      "Crops like millets, pulses, fruit trees, and medicinal plants thrive in permaculture systems.",
+      "Yes, permaculture is profitable over the long term as it reduces input costs and improves soil health."
+   ]
+},
+{
+   "tag": "post_harvest_management",
+   "patterns": [
+      "What is post-harvest management?",
+      "How can I store grains properly?",
+      "Best ways to reduce crop wastage?",
+      "What are cold storage benefits?",
+      "How can I process fruits for longer shelf life?"
+   ],
+   "responses": [
+      "Post-harvest management includes processing, storing, and transporting crops to reduce losses.",
+      "Grains should be stored in airtight containers or silos to prevent pest attacks.",
+      "Reducing wastage involves proper drying, cold storage, and timely transport.",
+      "Cold storage helps maintain the freshness of perishable crops like fruits and vegetables.",
+      "Processing methods like dehydration, canning, and freezing extend the shelf life of fruits."
+   ]
+},
+{
+   "tag": "organic_certification",
+   "patterns": [
+      "How do I get organic certification in India?",
+      "What is NPOP certification?",
+      "How long does it take to get organic certification?",
+      "What are the benefits of organic certification?",
+      "Where can I sell organic certified products?"
+   ],
+   "responses": [
+      "In India, organic certification is done under the NPOP (National Programme for Organic Production).",
+      "NPOP certification ensures that agricultural products meet organic farming standards.",
+      "It takes around 2-3 years to get organic certification, as land conversion is required.",
+      "Organic certification increases market value, ensures chemical-free produce, and allows export to international markets.",
+      "Certified organic products can be sold through organic stores, online platforms, and export markets."
+   ]
+},
+{
+   "tag": "crop_insurance",
+   "patterns": [
+      "What is crop insurance?",
+      "How do I apply for PMFBY?",
+      "What risks does crop insurance cover?",
+      "How much premium do I have to pay?",
+      "Where do I claim crop insurance?"
+   ],
+   "responses": [
+      "Crop insurance protects farmers against losses due to natural calamities, pests, and diseases.",
+      "You can apply for PMFBY (Pradhan Mantri Fasal Bima Yojana) through banks or CSC centers.",
+      "It covers risks like floods, droughts, pests, and hailstorms.",
+      "The premium varies from 1.5% to 5% of the sum insured, depending on the crop and region.",
+      "Claims can be filed through insurance companies or local agriculture offices."
+   ]
+},
+{
+   "tag": "gm_crops",
+   "patterns": [
+      "What are GM crops?",
+      "Are GM crops legal in India?",
+      "What are the advantages of GM crops?",
+      "What are the risks of genetically modified crops?",
+      "Which GM crops are grown in India?"
+   ],
+   "responses": [
+      "GM (Genetically Modified) crops are crops with altered DNA to enhance traits like pest resistance.",
+      "Only Bt Cotton is legally approved for cultivation in India.",
+      "Advantages include higher yield, pest resistance, and reduced pesticide usage.",
+      "Risks include loss of biodiversity, seed dependence, and potential health concerns.",
+      "Apart from Bt Cotton, trials for GM Mustard and Bt Brinjal are ongoing in India."
+   ]
+},
+{
+   "tag": "microfinance",
+   "patterns": [
+      "What is microfinance for farmers?",
+      "How do I get a microloan for farming?",
+      "Which banks provide microfinance in India?",
+      "What is the interest rate for microloans?",
+      "Can SHGs apply for agricultural microfinance?"
+   ],
+   "responses": [
+      "Microfinance provides small loans to farmers for seeds, fertilizers, and equipment.",
+      "You can apply for microloans through NABARD, cooperative banks, and MFIs.",
+      "Banks like SBI, ICICI, and Bandhan Bank provide microfinance for agriculture.",
+      "Interest rates vary but are generally between 9-15% annually.",
+      "Yes, Self-Help Groups (SHGs) can avail microfinance loans for collective farming."
+   ]
+},
+
+{
+   "tag": "wheat_prices",
+   "patterns": [
+      "What is the price of wheat in Punjab?",
+      "Latest wheat price in Madhya Pradesh?",
+      "What is the MSP for wheat?",
+      "Current wheat rates in Delhi?",
+      "How much is wheat selling for in Rajasthan?"
+   ],
+   "responses": [
+      "The wheat price in Punjab is ₹2,200 per quintal (MSP) and varies from ₹2,100 to ₹2,400 in mandis.",
+      "Madhya Pradesh wheat price is around ₹2,100 per quintal in local mandis.",
+      "The MSP for wheat for 2024 is ₹2,200 per quintal, set by the government.",
+      "Wheat in Delhi markets is selling at ₹2,300 per quintal in Azadpur Mandi.",
+      "Rajasthan's wheat price ranges between ₹2,100 and ₹2,250 per quintal in key markets like Kota and Jaipur."
+   ]
+},
+{
+   "tag": "rice_prices",
+   "patterns": [
+      "What is the price of Basmati rice in Haryana?",
+      "Current rice market rate in Tamil Nadu?",
+      "Latest paddy prices in West Bengal?",
+      "What is the MSP for rice?",
+      "How much is rice selling for in Chhattisgarh?"
+   ],
+   "responses": [
+      "The price of Basmati rice in Haryana is around ₹3,500 per quintal.",
+      "In Tamil Nadu, rice prices range between ₹2,200 and ₹2,700 per quintal, depending on variety.",
+      "West Bengal's paddy price is ₹1,900 per quintal in local markets.",
+      "The MSP for common rice is ₹2,040 per quintal, while Grade A rice is ₹2,060 per quintal.",
+      "Rice in Chhattisgarh is selling for ₹2,100 per quintal in Raipur and Bilaspur markets."
+   ]
+},
+{
+   "tag": "onion_prices",
+   "patterns": [
+      "Latest onion price in Maharashtra?",
+      "How much are onions selling for in Karnataka?",
+      "Onion rates in Delhi today?",
+      "Current price of onions in Gujarat?",
+      "What is the wholesale onion price in India?"
+   ],
+   "responses": [
+      "The onion price in Maharashtra’s Lasalgaon mandi is ₹1,800 per quintal.",
+      "In Karnataka, onions are selling at ₹1,600 per quintal in Bangalore market.",
+      "Delhi onion rates are around ₹1,700 per quintal in Azadpur Mandi.",
+      "Gujarat onion price is approximately ₹1,750 per quintal in Ahmedabad and Rajkot.",
+      "The average wholesale onion price in India is between ₹1,600 and ₹1,900 per quintal."
+   ]
+},
+{
+   "tag": "potato_prices",
+   "patterns": [
+      "What is the price of potatoes in Uttar Pradesh?",
+      "Latest potato rates in West Bengal?",
+      "How much is potato selling for in Punjab?",
+      "Current wholesale price of potatoes in India?",
+      "Potato price in Maharashtra markets?"
+   ],
+   "responses": [
+      "Potato price in Uttar Pradesh is ₹1,500 per quintal in Agra market.",
+      "In West Bengal, potatoes are selling for ₹1,400 per quintal in Kolkata and Siliguri.",
+      "Punjab’s potato rates are around ₹1,600 per quintal in Ludhiana and Jalandhar.",
+      "The wholesale potato price in India varies between ₹1,300 and ₹1,700 per quintal.",
+      "Maharashtra's potato price is ₹1,450 per quintal in Pune and Nashik markets."
+   ]
+},
+{
+   "tag": "sugarcane_prices",
+   "patterns": [
+      "What is the price of sugarcane in Maharashtra?",
+      "Current sugarcane rate in Uttar Pradesh?",
+      "How much is sugarcane selling for in Tamil Nadu?",
+      "What is the FRP for sugarcane?",
+      "Latest sugarcane prices in Karnataka?"
+   ],
+   "responses": [
+      "The price of sugarcane in Maharashtra is ₹350 per ton in Kolhapur and Pune markets.",
+      "In Uttar Pradesh, sugarcane is selling for ₹340 per ton in major APMCs.",
+      "Tamil Nadu’s sugarcane price is around ₹330 per ton.",
+      "The Fair and Remunerative Price (FRP) for sugarcane is ₹315 per quintal set by the government.",
+      "Sugarcane prices in Karnataka range between ₹320 and ₹350 per ton."
+   ]
+},
+{
+   "tag": "cotton_prices",
+   "patterns": [
+      "Latest cotton price in Gujarat?",
+      "How much is cotton selling for in Maharashtra?",
+      "What is the MSP for cotton?",
+      "Current cotton rate in Telangana?",
+      "Cotton price in Punjab today?"
+   ],
+   "responses": [
+      "The cotton price in Gujarat is ₹6,500 per quintal in Rajkot and Surat markets.",
+      "Maharashtra cotton price is around ₹6,700 per quintal in Jalgaon and Akola.",
+      "The MSP for cotton is ₹6,080 per quintal for medium staple and ₹6,380 per quintal for long staple cotton.",
+      "Telangana cotton price is ₹6,600 per quintal in Warangal and Nizamabad markets.",
+      "Punjab’s cotton rate is ₹6,750 per quintal in major mandis."
+   ]
+},
+{
+   "tag": "spice_prices",
+   "patterns": [
+      "What is the price of turmeric in Telangana?",
+      "Latest black pepper rates in Kerala?",
+      "How much is cumin selling for in Gujarat?",
+      "Current price of cardamom in India?",
+      "Coriander price in Rajasthan today?"
+   ],
+   "responses": [
+      "Turmeric price in Telangana is ₹7,800 per quintal in Nizamabad market.",
+      "Black pepper is selling at ₹53,000 per quintal in Kerala’s Kochi market.",
+      "Cumin (jeera) price in Gujarat is ₹30,000 per quintal in Unjha market.",
+      "Cardamom price in India ranges between ₹1,500 and ₹1,800 per kg.",
+      "Coriander price in Rajasthan is ₹11,000 per quintal in Kota and Ramganj markets."
+   ]
+},
+{
+   "tag": "wheat_prices_bhopal_ashta",
+   "patterns": [
+      "What is the price of wheat in Bhopal?",
+      "Latest wheat price in Ashta Mandi?",
+      "How much is wheat selling for in MP?",
+      "Current wheat rates in Delhi vs Bhopal?",
+      "What is the MSP for wheat in 2024?"
+   ],
+   "responses": [
+      "The wheat price in Bhopal Mandi is around ₹2,200 per quintal.",
+      "Ashta wheat mandi rate is ₹2,150 per quintal as of today.",
+      "In Madhya Pradesh, wheat prices range from ₹2,100 to ₹2,250 per quintal.",
+      "Delhi wheat price in Azadpur Mandi is ₹2,300 per quintal, slightly higher than Bhopal.",
+      "The Minimum Support Price (MSP) for wheat in 2024 is ₹2,200 per quintal."
+   ]
+},
+{
+   "tag": "rice_prices_bhopal_ashta",
+   "patterns": [
+      "What is the price of rice in Bhopal?",
+      "Latest rice rates in Ashta Mandi?",
+      "Current paddy price in MP?",
+      "How much is rice selling for in Bhopal vs Chennai?",
+      "MSP for rice in 2024?"
+   ],
+   "responses": [
+      "Rice price in Bhopal Mandi is ₹2,400 per quintal for standard quality.",
+      "Ashta Mandi rice prices are around ₹2,350 per quintal.",
+      "Paddy prices in Madhya Pradesh range between ₹1,800 and ₹2,100 per quintal.",
+      "Chennai rice prices are ₹2,700 per quintal, slightly higher than Bhopal rates.",
+      "The MSP for rice in 2024 is ₹2,040 per quintal for common variety and ₹2,060 per quintal for Grade A."
+   ]
+},
+{
+   "tag": "soybean_prices_bhopal_ashta",
+   "patterns": [
+      "What is the price of soybean in Bhopal?",
+      "Latest soybean rates in Ashta?",
+      "Current MSP for soybean in India?",
+      "How much is soybean selling for in Indore vs Bhopal?",
+      "Soybean mandi rates in MP?"
+   ],
+   "responses": [
+      "Soybean price in Bhopal is around ₹5,200 per quintal in Krishi Upaj Mandi.",
+      "Ashta soybean mandi rates are ₹5,100 per quintal.",
+      "The MSP for soybean in 2024 is ₹4,600 per quintal.",
+      "In Indore, soybean is selling for ₹5,300 per quintal, slightly higher than in Bhopal.",
+      "In Madhya Pradesh, soybean mandi rates range from ₹4,900 to ₹5,400 per quintal."
+   ]
+},
+{
+   "tag": "onion_prices_bhopal_ashta",
+   "patterns": [
+      "Latest onion price in Bhopal?",
+      "How much are onions selling for in Ashta?",
+      "Onion rates in MP vs Maharashtra?",
+      "Current wholesale price of onions in India?",
+      "What is the onion rate in Indore market?"
+   ],
+   "responses": [
+      "The onion price in Bhopal is ₹1,800 per quintal in local mandis.",
+      "Onions in Ashta Mandi are selling for ₹1,750 per quintal.",
+      "Maharashtra onion price in Lasalgaon is ₹1,900 per quintal, slightly higher than in MP.",
+      "The average wholesale onion price in India is between ₹1,700 and ₹2,000 per quintal.",
+      "Indore onion prices range from ₹1,750 to ₹1,850 per quintal."
+   ]
+},
+{
+   "tag": "potato_prices_bhopal_ashta",
+   "patterns": [
+      "What is the price of potatoes in Bhopal?",
+      "Latest potato rates in Ashta?",
+      "How much are potatoes selling for in MP?",
+      "Potato prices in Agra vs Bhopal?",
+      "Current wholesale potato price in India?"
+   ],
+   "responses": [
+      "Potato price in Bhopal mandi is ₹1,400 per quintal.",
+      "In Ashta, potatoes are selling for ₹1,350 per quintal.",
+      "Madhya Pradesh potato rates range between ₹1,300 and ₹1,500 per quintal.",
+      "Agra potato prices are ₹1,500 per quintal, slightly higher than in Bhopal.",
+      "The national average wholesale potato price is around ₹1,400 per quintal."
+   ]
+},
+{
+   "tag": "gram_prices_bhopal_ashta",
+   "patterns": [
+      "What is the price of chana in Bhopal?",
+      "Latest gram price in Ashta?",
+      "How much is chana selling for in MP?",
+      "Chana rates in MP vs Rajasthan?",
+      "What is the MSP for chana in 2024?"
+   ],
+   "responses": [
+      "Chana (gram) price in Bhopal Mandi is ₹5,300 per quintal.",
+      "Ashta chana mandi rates are ₹5,250 per quintal.",
+      "Madhya Pradesh gram rates range from ₹5,200 to ₹5,400 per quintal.",
+      "In Rajasthan, chana is selling for ₹5,500 per quintal, slightly higher than in MP.",
+      "The MSP for chana in 2024 is ₹5,335 per quintal."
+   ]
+},
+{
+   "tag": "sugarcane_prices_bhopal_ashta",
+   "patterns": [
+      "What is the price of sugarcane in Bhopal?",
+      "Latest sugarcane rate in Ashta?",
+      "How much is sugarcane selling for in MP?",
+      "Sugarcane mandi price in Maharashtra vs MP?",
+      "What is the FRP for sugarcane in 2024?"
+   ],
+   "responses": [
+      "The sugarcane price in Bhopal is ₹320 per ton.",
+      "In Ashta, sugarcane is selling for ₹315 per ton.",
+      "Madhya Pradesh sugarcane rates range from ₹310 to ₹330 per ton.",
+      "Maharashtra sugarcane price in Kolhapur is ₹350 per ton, higher than MP rates.",
+      "The Fair and Remunerative Price (FRP) for sugarcane in 2024 is ₹315 per quintal."
+   ]
+},
+{
+   "tag": "cotton_prices_bhopal_ashta",
+   "patterns": [
+      "Latest cotton price in Bhopal?",
+      "How much is cotton selling for in Ashta?",
+      "What is the MSP for cotton in 2024?",
+      "Cotton rates in Maharashtra vs MP?",
+      "Current cotton price in Indore?"
+   ],
+   "responses": [
+      "The cotton price in Bhopal is ₹6,500 per quintal.",
+      "Cotton mandi rates in Ashta are ₹6,450 per quintal.",
+      "The MSP for cotton in 2024 is ₹6,080 per quintal for medium staple and ₹6,380 for long staple.",
+      "Maharashtra cotton prices are ₹6,700 per quintal, slightly higher than MP rates.",
+      "Cotton price in Indore market is ₹6,550 per quintal."
+   ]
+},
+{
+   "tag": "mandi_locations_bhopal_ashta",
+   "patterns": [
+      "Where are the major mandis near Bhopal?",
+      "List of mandis in Ashta?",
+      "Which is the biggest mandi in Bhopal?",
+      "Where can I sell crops in MP?",
+      "Best wholesale markets near Bhopal?"
+   ],
+   "responses": [
+      "The major mandis near Bhopal include Karond Mandi, Itarsi Mandi, and Sehore Mandi.",
+      "Ashta has a key Krishi Upaj Mandi where farmers can sell wheat, soybean, and pulses.",
+      "The biggest mandi in Bhopal is Karond Mandi, which handles grains, vegetables, and oilseeds.",
+      "You can sell crops at major MP mandis like Indore, Ujjain, Sehore, and Harda for better prices.",
+      "Nearby wholesale markets include Bhopal Karond, Indore Devi Ahilya, and Vidisha Mandi."
+   ]
+},
+{
+   "tag": "wheat_mandi_prices_bhopal_ashta",
+   "patterns": [
+      "Wheat price in Karond Mandi?",
+      "Latest wheat rates in Ashta Mandi?",
+      "What is the MSP for wheat in MP?",
+      "Wheat price comparison in Bhopal vs Indore?",
+      "How much is wheat selling for in MP today?"
+   ],
+   "responses": [
+      "Wheat price in Karond Mandi is ₹2,200 per quintal.",
+      "Ashta Mandi wheat price is around ₹2,150 per quintal today.",
+      "The MSP for wheat in MP is ₹2,200 per quintal for 2024.",
+      "Indore wheat price is ₹2,300 per quintal, slightly higher than Bhopal rates.",
+      "Across MP, wheat is selling between ₹2,100 and ₹2,250 per quintal."
+   ]
+},
+{
+   "tag": "soybean_mandi_prices_bhopal_ashta",
+   "patterns": [
+      "Soybean price in Bhopal Mandi?",
+      "Latest soybean rates in Ashta?",
+      "How much is soybean selling for in MP?",
+      "Soybean mandi rates in MP vs Rajasthan?",
+      "Current soybean price in Indore?"
+   ],
+   "responses": [
+      "Soybean price in Bhopal Mandi is ₹5,200 per quintal.",
+      "Ashta soybean price is ₹5,100 per quintal.",
+      "Madhya Pradesh soybean rates vary between ₹4,900 and ₹5,400 per quintal.",
+      "Rajasthan soybean price is ₹5,300 per quintal, slightly higher than MP.",
+      "Soybean price in Indore is ₹5,350 per quintal today."
+   ]
+},
+{
+   "tag": "onion_mandi_prices_bhopal_ashta",
+   "patterns": [
+      "Onion price in Bhopal Mandi?",
+      "Latest onion price in Ashta?",
+      "How much are onions selling for in MP?",
+      "Onion mandi rates in Maharashtra vs MP?",
+      "Current onion price in Indore?"
+   ],
+   "responses": [
+      "Onion price in Bhopal is ₹1,800 per quintal.",
+      "Ashta onion mandi rates are ₹1,750 per quintal.",
+      "In Madhya Pradesh, onion prices range from ₹1,700 to ₹1,900 per quintal.",
+      "Maharashtra onion price in Lasalgaon is ₹1,900 per quintal, slightly higher than MP rates.",
+      "Indore onion prices today are ₹1,850 per quintal."
+   ]
+},
+{
+   "tag": "bhopal_weather_forecast",
+   "patterns": [
+      "What is the weather like in Bhopal today?",
+      "Will it rain in Bhopal tomorrow?",
+      "Is there a heatwave warning for Bhopal?",
+      "What is the temperature in Bhopal?",
+      "How is the weather affecting crops in Bhopal?"
+   ],
+   "responses": [
+      "The weather in Bhopal today is sunny with a high of 35°C.",
+      "Rain is expected in Bhopal tomorrow, with a 60% chance of showers.",
+      "There is a heatwave warning for Bhopal, with temperatures expected to rise above 40°C.",
+      "Currently, Bhopal's temperature is 32°C, with clear skies.",
+      "Due to high temperatures, wheat harvesting in Bhopal has been slightly delayed."
+   ]
+},
+{
+   "tag": "ashta_weather_forecast",
+   "patterns": [
+      "What is the weather in Ashta today?",
+      "Is there a drought warning for Ashta?",
+      "How will the rain affect crops in Ashta?",
+      "What is the temperature in Ashta?",
+      "Will there be a storm in Ashta this week?"
+   ],
+   "responses": [
+      "The weather in Ashta today is partly cloudy with a high of 33°C.",
+      "There is no drought warning for Ashta currently, but rainfall is below average.",
+      "Expected rainfall in Ashta will help soybean and wheat crops.",
+      "The current temperature in Ashta is 31°C, with light winds.",
+      "A thunderstorm is expected in Ashta later this week, farmers should take precautions."
+   ]
+},
+{
+   "tag": "seasonal_forecast_madhya_pradesh",
+   "patterns": [
+      "How will the monsoon be in MP this year?",
+      "Is MP expecting good rainfall this season?",
+      "What are the seasonal weather trends in MP?",
+      "How will weather impact crops in MP?",
+      "Will there be a flood in MP?"
+   ],
+   "responses": [
+      "The monsoon forecast for MP indicates normal to above-average rainfall this year.",
+      "MP is expected to receive good rainfall, benefiting Kharif crops like paddy and soybean.",
+      "Seasonal weather trends show higher temperatures and increased humidity in MP.",
+      "Weather conditions are favorable for crop growth, but farmers should prepare for occasional dry spells.",
+      "No major flood warnings for MP, but heavy rains in certain districts could cause waterlogging."
+   ]
+},
+{
+   "tag": "climate_change_impact_madhya_pradesh",
+   "patterns": [
+      "How is climate change affecting agriculture in MP?",
+      "Will rising temperatures impact wheat farming in Bhopal?",
+      "What can farmers in MP do to combat climate change?",
+      "Is drought becoming more frequent in MP?",
+      "How does extreme weather impact farmers in MP?"
+   ],
+   "responses": [
+      "Climate change is causing irregular rainfall and rising temperatures, affecting crop yields in MP.",
+      "Rising temperatures may reduce wheat yield in Bhopal and surrounding areas.",
+      "Farmers in MP can use drought-resistant crops, efficient irrigation, and organic farming to combat climate change.",
+      "Droughts are becoming more frequent in MP, impacting soybean and gram production.",
+      "Extreme weather events like hailstorms and unseasonal rains are damaging crops in MP."
+   ]
+},
+{
+   "tag": "climate_change_impact_madhya_pradesh",
+   "patterns": [
+      "How is climate change affecting agriculture in MP?",
+      "Will rising temperatures impact wheat farming in Bhopal?",
+      "What can farmers in MP do to combat climate change?",
+      "Is drought becoming more frequent in MP?",
+      "How does extreme weather impact farmers in MP?"
+   ],
+   "responses": [
+      "Climate change is causing irregular rainfall and rising temperatures, affecting crop yields in MP.",
+      "Rising temperatures may reduce wheat yield in Bhopal and surrounding areas.",
+      "Farmers in MP can use drought-resistant crops, efficient irrigation, and organic farming to combat climate change.",
+      "Droughts are becoming more frequent in MP, impacting soybean and gram production.",
+      "Extreme weather events like hailstorms and unseasonal rains are damaging crops in MP."
+   ]
+}
+
+
+
+      
+   ]
+}

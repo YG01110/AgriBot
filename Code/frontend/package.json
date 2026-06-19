@@ -1,0 +1,32 @@
+{
+  "name": "vikbot",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@tailwindcss/forms": "^0.5.10",
+    "framer-motion": "^12.7.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "react-speech-recognition": "^3.10.0",
+    "react-spinners": "^0.16.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "vite": "^4.2.0"
+  }
+}
