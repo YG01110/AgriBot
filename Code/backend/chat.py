@@ -12,10 +12,10 @@ app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app, cors_allowed_origins="*")
 
 # API Configuration
-OPENROUTER_API_KEY = "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"  # Replace with your key
-WEATHER_API_KEY = "4755ac7786463300024c523fd7582e1a"
-PIXABAY_API_KEY = "49507918-8121ad7375feb3f28c1f38692"
-IPINFO_TOKEN = "e3b07d6f5956b1"  # From ipinfo.io
+OPENROUTER_API_KEY = ""  # Replace with your key
+WEATHER_API_KEY = ""
+PIXABAY_API_KEY = ""
+IPINFO_TOKEN = ""  # From ipinfo.io
 
 # API Endpoints
 WEATHER_FORECAST_URL = "http://api.openweathermap.org/data/2.5/forecast"
